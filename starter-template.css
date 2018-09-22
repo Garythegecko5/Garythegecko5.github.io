@@ -1,8 +1,13 @@
+button {
+    vertical-align: center;
+}
 
 body {
   padding-top: 50px;
 }
 .navbar{
+    
+    padding-top: 5px;
     text-allign: left;
     
 }
