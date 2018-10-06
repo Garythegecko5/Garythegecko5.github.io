@@ -139,3 +139,45 @@ body {
   padding-right: 20px;
   padding-left: 20px;
 }
+
+/*section- nav and box*/
+
+.sec {
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+.nav {
+    float: left;
+    width: 30%;
+    height: 1000px; /* only for demonstration, should be removed */
+    background: #eeee;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+.nav ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.art {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+.sec:after {
+    content: "";
+    display: table;
+    clear: both;
+}
