@@ -151,7 +151,7 @@ body {
 .nav {
     float: left;
     width: 30%;
-    height: 1000px; /* only for demonstration, should be removed */
+    height: 600px; /* only for demonstration, should be removed */
     background: #eeee;
     padding: 20px;
 }
@@ -172,7 +172,7 @@ body {
     padding: 20px;
     width: 70%;
     background-color: white;
-    height: 1000px; /* only for demonstration, should be removed */
+    height: 600px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
