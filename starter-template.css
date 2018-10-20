@@ -146,6 +146,7 @@ body {
     box-sizing: border-box;
     padding-left: 0px;
     width: 800px;
+    height: 300px;
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -173,7 +174,6 @@ body {
     float: right;
     padding: 20px;
     background-color: white;
-    height: 600px; /* only for demonstration, should be removed */
 }
 
 
