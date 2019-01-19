@@ -171,8 +171,6 @@ body {
 }
 
 
-
-
 /* Clear floats after the columns */
 .sec:after {
     content: "";
